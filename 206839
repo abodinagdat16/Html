@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                background-color: aqua;
+            }
+            h1{
+                color: yellow;
+                background-color: red;
+                text-align: center;
+            }
+            table{
+                border: seashell;
+                border-collapse: collapse;
+                width: 100%;
+            }
+            th,tr{
+                border: 1px solid;
+                padding: 8px;
+                text-align: left;
+            }
+            table,th,td{
+                border: 1px solid black;
+            }
+            .h2{
+                color: blue;
+                text-align: center;
+                background-color: burlywood;
+            }
+        </style>
+        <title>webpage</title>
+    </head>
+    <body>
+        <h1>Welcome to our page </h1>
+        <iframe width="260" height="215" src="https://www.youtube.com/embed/oOPjWUwNyjA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </body>
+    <table>
+        <tr>
+            <th>No.</th>
+            <th>age</th>
+            <th>Name</th>
+            <th>Subject</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>13</td>
+            <td>Ali</td>
+            <td>Bio</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>14</td>
+            <td>Rami</td>
+            <td>Chemistry</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>15</td>
+            <td>Hussein</td>
+            <td>MAth</td>   
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>16</td>
+            <td>Ahmed</td>
+            <td>Computer</td>
+        </tr>
+    </table><br><br><br>    
+    <h1 class="h2">HTML FORM</h1>
+    <form action="/action_page.php" method="GET">
+        <fieldset>
+            <legend>Information</legend>
+        <label for="First name"></label>First name:<br>
+        <input type="text" id="Fname" name="Fname" placeholder="Enter your first name" required><br>
+        <lable for="Last name">Last name:</lable><br>
+        <input type="text" id="lname" name="lname" placeholder="Enter your last name" required><br>
+        <lable for="password">password:</lable><br>
+        <input type="text" id="pass" name="pass" placeholder="Enter your password" required><br>
+        <lable for="E-mail">E-mail:</lable><br>
+        <input type="password" id="pwd" name="pwd" placeholder="Enter your password" required><br>
+        <label for="Birthday"> Birthday:</label><br>
+        <input type="date" id="birthay" name="birthday" placeholder="xxx@gmail.com" required><br>
+    </fieldset>
+    <fieldset>
+        <legend>sex:</legend>
+      <input type="radio" id="male" name="gender" value="male">
+      <label for="male">Male</label><br>
+      <input type="radio" id="female" name="gender" value="female">
+      <label for="female">Female</label><br>
+      <input type="radio" id="certif" name="gender" value="certif">
+      <label for="certif">certif</label><br>
+      <p>certicicate:</p>
+      <input type="checkbox" id="bsc" name="bsc" value="bsc">
+      <label for="bsc"> bsc</label>
+      <input type="checkbox" id="phd" name="phd" value="phd">
+      <label for="phd"> phd</label><br>
+      <p>enter your registration day in school:</p>
+      <label for="graduation">graduation:</label><br>
+      <input type="date" id="graduation" name="graduation" required>
+      </fieldset>
+      <fieldset>
+        <legend>adress:</legend>
+      <label for="cntry">country:</label>
+      <input type="text" id="city" name="city" required > <br>
+      <label for="city">city:  </label>
+      <input type="text" id="city" name="city" required ><br>
+       <label for="street">street:</label>
+      <input type="text" id="street" name="street" required >
+      <fieldset>
+      <label for="city">choose a city:</label>
+      <select id="city" name="city"><br><br>
+        <option value="Baghdad">Baghdad</option><br>
+<option value="Najjaf">Najjaf</option>
+        <option value="Mousel">Mousel</option>
+      </select>
+      </fieldset>
+     <fieldset>
+      <input type="submit" value="Submit"><br>
+      <input type="reset">
+    </fieldset> 
+    </form><br><br>
+    <ul>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+      </ul>  
+      <ol>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+      </ol>
+      <dl>
+        <dt>Coffee</dt>
+        <dd>- black hot drink</dd>
+        <dt>Milk</dt>
+        <dd>- white cold drink</dd>
+      </dl>
+      <ul style="list-style-type:disc;">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+      </ul>
+      <ul>
+        <li>Coffee</li>
+        <li>Tea
+          <ul>
+            <li>Black tea</li>
+            <li>Green tea</li>
+          </ul>
+        </li>
+        <li>Milk</li>
+      </ul>
+      <center>
+      <img src="https://www.w3schools.com/images/w3schools_green.jpg" alt="W3Schools.com" style="width:104px;height:142px;">
+    </center>
+    <p><a href="https://www.w3schools.com/">Visit W3Schools.com!</a></p>
+    <iframe src="demo_iframe.htm" height="200" width="300" title="Iframe Example"></iframe>
+
+</html>
